@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import TextArea from "../components/textarea/textarea";
+import { Textarea } from "../components/textarea/textarea";
 
 const meta = {
-  title: "Example/TextArea",
-  component: TextArea,
+  title: "Example/Textarea",
+  component: Textarea,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
-  tags: ["textArea"],
+  tags: ["Textarea"],
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: "fullscreen",
   },
-} satisfies Meta<typeof TextArea>;
+} satisfies Meta<typeof Textarea>;
 
 export default meta;
 
@@ -20,6 +20,7 @@ type Story = StoryObj<typeof meta>;
 export const TextAreaStory: Story = {
   args: {
     dir: "ltr",
+    defaultValue: "",
     tags: [
       {
         label: "FirstName",

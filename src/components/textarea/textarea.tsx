@@ -4,7 +4,12 @@ import { Props, Tag } from "./type";
 import TagsButton from "../tagsButton";
 import UseTextarea from "./hooks/useTextarea";
 
-function Textarea({ dir = "ltr", tags, defaultValue = "", setValue }: Props) {
+export function Textarea({
+  dir = "ltr",
+  tags,
+  defaultValue = "",
+  setValue,
+}: Props) {
   const { addToDiv, chatBoxRef } = UseTextarea({
     defaultValue,
     tags,
@@ -29,5 +34,3 @@ function Textarea({ dir = "ltr", tags, defaultValue = "", setValue }: Props) {
     </>
   );
 }
-
-export default Textarea;
