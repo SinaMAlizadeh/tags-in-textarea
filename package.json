@@ -1,6 +1,6 @@
 {
   "name": "react-tags-in-textarea",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tags in textarea, user can add your tags between text and result is string with tag value",
   "main": "dist/textarea.cjs.js",
   "module": "dist/textarea.esm.js",

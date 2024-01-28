@@ -6,6 +6,6 @@ export interface Tag {
 export type Props = {
   dir?: "rtl" | "ltr";
   tags: Array<Tag>;
-  defaultValue: string;
+  defaultValue?: string;
   setValue: (e: string) => void;
 };

@@ -16,7 +16,7 @@ export default function UseTextarea({
   const chatBoxRef = useRef<HTMLDivElement>(null);
 
   const handleContentChange = () => {
-    setValue(TagsConvertWithValue(chatBoxRef.current.innerHTML || "", tags));
+    setValue(TagsConvertWithValue(chatBoxRef?.current?.innerHTML || "", tags));
   };
 
   const insertTagAtCaret = (tag: HTMLElement) => {
