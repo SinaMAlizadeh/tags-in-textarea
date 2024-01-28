@@ -4,7 +4,7 @@
   "description": "Tags in textarea, user can add your tags between text and result is string with tag value",
   "main": "dist/textarea.cjs.js",
   "module": "dist/textarea.esm.js",
-  "types": "dist/textarea.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
