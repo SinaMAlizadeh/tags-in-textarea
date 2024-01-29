@@ -34,6 +34,7 @@ export default {
     terser(),
     postcss({
       plugins: [],
+      minimize: true,
     }),
   ],
 };
