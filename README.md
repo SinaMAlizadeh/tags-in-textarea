@@ -1,6 +1,6 @@
 # React Tags In Textarea
 
-Enhance your projects with our intuitive tagging package, designed for seamless integration into your text content. Effortlessly define and embed customizable tags amidst text, providing users with the flexibility to craft and annotate their narratives. Ideal for organizing, highlighting, or categorizing text elements, our package empowers you to enrich your content, making it more interactive and informative. Perfect for developers seeking to add dynamic tagging capabilities to their React applications.
+Enhance your projects with our intuitive tagging package, designed for seamless integration into your text content. Effortlessly define and embed customizable tags amidst text, providing users with the flexibility to craft and annotate their narratives. Ideal for organizing, highlighting, or categorizing text elements, our package empowers you to enrich your content, making it more interactive and informative. Perfect for developers seeking to add dynamic tagging capabilities to their React applications.([Demo](https://codesandbox.io/p/sandbox/react-tags-in-textarea-forked-5dfdr5 "Demo"))
 
 ## Installation
 
@@ -45,8 +45,8 @@ Define your Textarea and config :
 ## User guide
 
 | Prop name    | Description                                                          | Default value    | Example values                    |
-| ------------ | -------------------------------------------------------------------- | ---------------- | --------------------------------- | ----- |
-| dir          | Direction of text content                                            | ltr              | "rtl"                             | "rtl" |
+| ------------ | -------------------------------------------------------------------- | ---------------- | --------------------------------- |
+| dir          | Direction of text content                                            | ltr              | "rtl" , "rtl"                     |
 | tags         | Tags you define and user see as button to add into text - Array<Tag> | []               | [{ label: string;value: string;}] |
 | defaultValue | Default value import in text in first render                         | Optional         | "my first Text"                   |
 | setValue     | Function to call every time text change in textarea                  | (e: Tag) => void |                                   |
